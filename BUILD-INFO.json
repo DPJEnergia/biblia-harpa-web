@@ -1,0 +1,371 @@
+{
+ "build": "dist-public",
+ "built_at": "2026-10-22T17:29:07-0300",
+ "stamp": "a468f7ff9d23",
+ "versions": [
+  {
+   "id": "alm1911",
+   "license": "PD",
+   "file": "bible-alm1911.json"
+  }
+ ],
+ "sw_sha256": "552e805deb3a7b0927af59febd55b58ecc91c4acb7fec22f06e714700fbb6fb4",
+ "files": [
+  {
+   "path": "css/app.css",
+   "bytes": 10251
+  },
+  {
+   "path": "data/bible-alm1911.json",
+   "bytes": 4004829
+  },
+  {
+   "path": "data/books.json",
+   "bytes": 3447
+  },
+  {
+   "path": "data/harpa.json",
+   "bytes": 423214
+  },
+  {
+   "path": "data/meta.json",
+   "bytes": 255
+  },
+  {
+   "path": "data/plano90.json",
+   "bytes": 2068
+  },
+  {
+   "path": "data/versions.json",
+   "bytes": 124
+  },
+  {
+   "path": "data/votd.json",
+   "bytes": 4578
+  },
+  {
+   "path": "icon-192.png",
+   "bytes": 892
+  },
+  {
+   "path": "icon-512.png",
+   "bytes": 2558
+  },
+  {
+   "path": "img/livros/1co.jpg",
+   "bytes": 89363
+  },
+  {
+   "path": "img/livros/1cr.jpg",
+   "bytes": 73734
+  },
+  {
+   "path": "img/livros/1jo.jpg",
+   "bytes": 78911
+  },
+  {
+   "path": "img/livros/1pe.jpg",
+   "bytes": 36704
+  },
+  {
+   "path": "img/livros/1rs.jpg",
+   "bytes": 88945
+  },
+  {
+   "path": "img/livros/1sm.jpg",
+   "bytes": 87113
+  },
+  {
+   "path": "img/livros/1tm.jpg",
+   "bytes": 80172
+  },
+  {
+   "path": "img/livros/1ts.jpg",
+   "bytes": 50207
+  },
+  {
+   "path": "img/livros/2co.jpg",
+   "bytes": 87109
+  },
+  {
+   "path": "img/livros/2cr.jpg",
+   "bytes": 67026
+  },
+  {
+   "path": "img/livros/2jo.jpg",
+   "bytes": 20835
+  },
+  {
+   "path": "img/livros/2pe.jpg",
+   "bytes": 56594
+  },
+  {
+   "path": "img/livros/2rs.jpg",
+   "bytes": 19221
+  },
+  {
+   "path": "img/livros/2sm.jpg",
+   "bytes": 89729
+  },
+  {
+   "path": "img/livros/2tm.jpg",
+   "bytes": 85234
+  },
+  {
+   "path": "img/livros/2ts.jpg",
+   "bytes": 64793
+  },
+  {
+   "path": "img/livros/3jo.jpg",
+   "bytes": 72407
+  },
+  {
+   "path": "img/livros/ag.jpg",
+   "bytes": 85167
+  },
+  {
+   "path": "img/livros/am.jpg",
+   "bytes": 60877
+  },
+  {
+   "path": "img/livros/ap.jpg",
+   "bytes": 79098
+  },
+  {
+   "path": "img/livros/at.jpg",
+   "bytes": 87596
+  },
+  {
+   "path": "img/livros/cl.jpg",
+   "bytes": 66653
+  },
+  {
+   "path": "img/livros/creditos.json",
+   "bytes": 22257
+  },
+  {
+   "path": "img/livros/ct.jpg",
+   "bytes": 89883
+  },
+  {
+   "path": "img/livros/dn.jpg",
+   "bytes": 90662
+  },
+  {
+   "path": "img/livros/dt.jpg",
+   "bytes": 86556
+  },
+  {
+   "path": "img/livros/ec.jpg",
+   "bytes": 42090
+  },
+  {
+   "path": "img/livros/ef.jpg",
+   "bytes": 83651
+  },
+  {
+   "path": "img/livros/esd.jpg",
+   "bytes": 50733
+  },
+  {
+   "path": "img/livros/et.jpg",
+   "bytes": 40123
+  },
+  {
+   "path": "img/livros/ex.jpg",
+   "bytes": 89775
+  },
+  {
+   "path": "img/livros/ez.jpg",
+   "bytes": 40977
+  },
+  {
+   "path": "img/livros/fm.jpg",
+   "bytes": 90717
+  },
+  {
+   "path": "img/livros/fp.jpg",
+   "bytes": 87030
+  },
+  {
+   "path": "img/livros/gl.jpg",
+   "bytes": 90505
+  },
+  {
+   "path": "img/livros/gn.jpg",
+   "bytes": 56315
+  },
+  {
+   "path": "img/livros/hb.jpg",
+   "bytes": 89586
+  },
+  {
+   "path": "img/livros/hc.jpg",
+   "bytes": 87303
+  },
+  {
+   "path": "img/livros/is.jpg",
+   "bytes": 38233
+  },
+  {
+   "path": "img/livros/jd.jpg",
+   "bytes": 20059
+  },
+  {
+   "path": "img/livros/jl.jpg",
+   "bytes": 73586
+  },
+  {
+   "path": "img/livros/jn.jpg",
+   "bytes": 73917
+  },
+  {
+   "path": "img/livros/joao.jpg",
+   "bytes": 59016
+  },
+  {
+   "path": "img/livros/job.jpg",
+   "bytes": 45145
+  },
+  {
+   "path": "img/livros/jr.jpg",
+   "bytes": 85180
+  },
+  {
+   "path": "img/livros/js.jpg",
+   "bytes": 86026
+  },
+  {
+   "path": "img/livros/jz.jpg",
+   "bytes": 84625
+  },
+  {
+   "path": "img/livros/lc.jpg",
+   "bytes": 90766
+  },
+  {
+   "path": "img/livros/lm.jpg",
+   "bytes": 32591
+  },
+  {
+   "path": "img/livros/lv.jpg",
+   "bytes": 50855
+  },
+  {
+   "path": "img/livros/mc.jpg",
+   "bytes": 53319
+  },
+  {
+   "path": "img/livros/ml.jpg",
+   "bytes": 85577
+  },
+  {
+   "path": "img/livros/mq.jpg",
+   "bytes": 32455
+  },
+  {
+   "path": "img/livros/mt.jpg",
+   "bytes": 53958
+  },
+  {
+   "path": "img/livros/na.jpg",
+   "bytes": 25606
+  },
+  {
+   "path": "img/livros/ne.jpg",
+   "bytes": 55577
+  },
+  {
+   "path": "img/livros/nm.jpg",
+   "bytes": 87951
+  },
+  {
+   "path": "img/livros/ob.jpg",
+   "bytes": 90729
+  },
+  {
+   "path": "img/livros/os.jpg",
+   "bytes": 89006
+  },
+  {
+   "path": "img/livros/pv.jpg",
+   "bytes": 80405
+  },
+  {
+   "path": "img/livros/rm.jpg",
+   "bytes": 53370
+  },
+  {
+   "path": "img/livros/rt.jpg",
+   "bytes": 40972
+  },
+  {
+   "path": "img/livros/sf.jpg",
+   "bytes": 50714
+  },
+  {
+   "path": "img/livros/sl.jpg",
+   "bytes": 85763
+  },
+  {
+   "path": "img/livros/tg.jpg",
+   "bytes": 68741
+  },
+  {
+   "path": "img/livros/tt.jpg",
+   "bytes": 54336
+  },
+  {
+   "path": "img/livros/zc.jpg",
+   "bytes": 88853
+  },
+  {
+   "path": "index.html",
+   "bytes": 1453
+  },
+  {
+   "path": "js/app.js",
+   "bytes": 30718
+  },
+  {
+   "path": "js/audio-core.js",
+   "bytes": 10917
+  },
+  {
+   "path": "js/audio.js",
+   "bytes": 21673
+  },
+  {
+   "path": "js/data.js",
+   "bytes": 4839
+  },
+  {
+   "path": "js/harpa.js",
+   "bytes": 1804
+  },
+  {
+   "path": "js/plano.js",
+   "bytes": 1494
+  },
+  {
+   "path": "js/reader.js",
+   "bytes": 1366
+  },
+  {
+   "path": "js/store.js",
+   "bytes": 6703
+  },
+  {
+   "path": "js/votd.js",
+   "bytes": 6775
+  },
+  {
+   "path": "manifest.json",
+   "bytes": 453
+  },
+  {
+   "path": "sw.js",
+   "bytes": 4007
+  }
+ ]
+}

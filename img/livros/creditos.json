@@ -1,0 +1,596 @@
+[
+ {
+  "id": "gn",
+  "file": "gn.jpg",
+  "tema": "céu estrelado",
+  "titulo": "File:A dazzling night sky near Blackrock Canyon, Idaho Falls District (52308724890).jpg",
+  "autor": "BLMIdaho",
+  "licenca": "Public domain",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:A_dazzling_night_sky_near_Blackrock_Canyon,_Idaho_Falls_District_(52308724890).jpg"
+ },
+ {
+  "id": "ex",
+  "file": "ex.jpg",
+  "tema": "deserto do Sinai",
+  "titulo": "File:Berge und Wüste auf der Halbinsel Sinai 1.jpg",
+  "autor": "Christian-wittmann-1964",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Berge_und_W%C3%BCste_auf_der_Halbinsel_Sinai_1.jpg"
+ },
+ {
+  "id": "lv",
+  "file": "lv.jpg",
+  "tema": "monte Sinai ao entardecer",
+  "titulo": "File:Cedarsunset.JPG",
+  "autor": "Iracaz",
+  "licenca": "CC BY-SA 3.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Cedarsunset.JPG"
+ },
+ {
+  "id": "nm",
+  "file": "nm.jpg",
+  "tema": "deserto do Sinai",
+  "titulo": "File:A lonely tree in the desert.jpg",
+  "autor": "Masgalal",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:A_lonely_tree_in_the_desert.jpg"
+ },
+ {
+  "id": "dt",
+  "file": "dt.jpg",
+  "tema": "planícies de Moabe",
+  "titulo": "File:141901 a view of the havre hills in the valley PikiWiki Israel.jpg",
+  "autor": "שלמה רודד",
+  "licenca": "CC BY 2.5",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:141901_a_view_of_the_havre_hills_in_the_valley_PikiWiki_Israel.jpg"
+ },
+ {
+  "id": "js",
+  "file": "js.jpg",
+  "tema": "rio Jordão",
+  "titulo": "File:119635 the banias river - nahal hermon PikiWiki Israel.jpg",
+  "autor": "שלמה רודד",
+  "licenca": "CC BY 2.5",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:119635_the_banias_river_-_nahal_hermon_PikiWiki_Israel.jpg"
+ },
+ {
+  "id": "jz",
+  "file": "jz.jpg",
+  "tema": "colinas rochosas de Israel",
+  "titulo": "File:Beit El.jpg",
+  "autor": "Orrling",
+  "licenca": "CC BY-SA 3.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Beit_El.jpg"
+ },
+ {
+  "id": "rt",
+  "file": "rt.jpg",
+  "tema": "campo de trigo na colheita",
+  "titulo": "File:A view of landscape pre with harvest wheat crop in Punjab.jpg",
+  "autor": "Harvinder Chandigarh",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:A_view_of_landscape_pre_with_harvest_wheat_crop_in_Punjab.jpg"
+ },
+ {
+  "id": "1sm",
+  "file": "1sm.jpg",
+  "tema": "pastoreio de ovelhas",
+  "titulo": "File:A large flock of sheep in a paddock on a hillside (AM 75053-1).jpg",
+  "autor": "Tudor Washington Collins",
+  "licenca": "CC BY 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:A_large_flock_of_sheep_in_a_paddock_on_a_hillside_(AM_75053-1).jpg"
+ },
+ {
+  "id": "2sm",
+  "file": "2sm.jpg",
+  "tema": "colinas de Jerusalém",
+  "titulo": "File:Air views of Palestine. Various points of interest around Jerusalem. Ain Karem, 'In the hill country of Judea.' Traditional birthplace of John the Baptist LOC matpc.22169.jpg",
+  "autor": "Matson Collection",
+  "licenca": "Public domain",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Air_views_of_Palestine._Various_points_of_interest_around_Jerusalem._Ain_Karem,_%27In_the_hill_country_of_Judea.%27_Traditional_birthplace_of_John_the_Baptist_LOC_matpc.22169.jpg"
+ },
+ {
+  "id": "1rs",
+  "file": "1rs.jpg",
+  "tema": "cedros do Líbano",
+  "titulo": "File:Cedrus libani plantation in Saint-Pons-de-Thomières cf01.jpg",
+  "autor": "Christian Ferrer",
+  "licenca": "CC BY 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Cedrus_libani_plantation_in_Saint-Pons-de-Thomi%C3%A8res_cf01.jpg"
+ },
+ {
+  "id": "2rs",
+  "file": "2rs.jpg",
+  "tema": "nuvens de fogo ao pôr do sol",
+  "titulo": "File:Busy Sky at Dusk, Phoenix AZ.jpg",
+  "autor": "Deborah Tosline",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Busy_Sky_at_Dusk,_Phoenix_AZ.jpg"
+ },
+ {
+  "id": "1cr",
+  "file": "1cr.jpg",
+  "tema": "colinas da Judeia",
+  "titulo": "File:146228 judean desert PikiWiki Israel.jpg",
+  "autor": "דרור פייטלסון",
+  "licenca": "CC BY 2.5",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:146228_judean_desert_PikiWiki_Israel.jpg"
+ },
+ {
+  "id": "2cr",
+  "file": "2cr.jpg",
+  "tema": "ruínas antigas de pedra",
+  "titulo": "File:Temple of Apollo Delphi Greece 2009.jpg",
+  "autor": "Miłośnik Podróży",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Temple_of_Apollo_Delphi_Greece_2009.jpg"
+ },
+ {
+  "id": "esd",
+  "file": "esd.jpg",
+  "tema": "muralhas e ruínas",
+  "titulo": "File:18.50 Dura Europos, Euphrat i. H.jpg",
+  "autor": "Haubi",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:18.50_Dura_Europos,_Euphrat_i._H.jpg"
+ },
+ {
+  "id": "ne",
+  "file": "ne.jpg",
+  "tema": "muralhas de Jerusalém",
+  "titulo": "File:127940 jerusalem - view from the northern wall PikiWiki Israel.jpg",
+  "autor": "PikiWiki Israel (autor não identificado)",
+  "licenca": "CC BY 2.5",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:127940_jerusalem_-_view_from_the_northern_wall_PikiWiki_Israel.jpg"
+ },
+ {
+  "id": "et",
+  "file": "et.jpg",
+  "tema": "palácio persa em ruínas",
+  "titulo": "File:Apadana, Tachara in Persepolis, Iran.jpg",
+  "autor": "Carole Raddato",
+  "licenca": "CC BY-SA 2.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Apadana,_Tachara_in_Persepolis,_Iran.jpg"
+ },
+ {
+  "id": "job",
+  "file": "job.jpg",
+  "tema": "tempestade",
+  "titulo": "File:Amphitheatre Bay after a storm, Akamas Peninsula, Cyprus.jpg",
+  "autor": "Michal Klajban",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Amphitheatre_Bay_after_a_storm,_Akamas_Peninsula,_Cyprus.jpg"
+ },
+ {
+  "id": "sl",
+  "file": "sl.jpg",
+  "tema": "ovelhas em pastos verdes",
+  "titulo": "File:A Fine Flock of Sheep grazing peacefully at Smeaton - geograph.org.uk - 7851568.jpg",
+  "autor": "Jennifer Petrie",
+  "licenca": "CC BY-SA 2.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:A_Fine_Flock_of_Sheep_grazing_peacefully_at_Smeaton_-_geograph.org.uk_-_7851568.jpg"
+ },
+ {
+  "id": "pv",
+  "file": "pv.jpg",
+  "tema": "caminho na montanha",
+  "titulo": "File:Central Catskills from Twin south summit.jpg",
+  "autor": "Daniel Case",
+  "licenca": "CC BY-SA 3.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Central_Catskills_from_Twin_south_summit.jpg"
+ },
+ {
+  "id": "ec",
+  "file": "ec.jpg",
+  "tema": "vento e areia",
+  "titulo": "File:006 Dune 45 in Sossusvlei at sunrise Photo by Giles Laurent.jpg",
+  "autor": "Giles Laurent",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:006_Dune_45_in_Sossusvlei_at_sunrise_Photo_by_Giles_Laurent.jpg"
+ },
+ {
+  "id": "ct",
+  "file": "ct.jpg",
+  "tema": "flores na primavera",
+  "titulo": "File:Beilstein - Billensbach - Wiese und Wäldchen im SO des Dorfes im Mai (2).jpg",
+  "autor": "Roman Eisele",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Beilstein_-_Billensbach_-_Wiese_und_W%C3%A4ldchen_im_SO_des_Dorfes_im_Mai_(2).jpg"
+ },
+ {
+  "id": "is",
+  "file": "is.jpg",
+  "tema": "montanha ao amanhecer",
+  "titulo": "File:360 Panorama - Aerial view of Sunrise from Ithalar village, Ooty.jpg",
+  "autor": "iMahesh",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:360_Panorama_-_Aerial_view_of_Sunrise_from_Ithalar_village,_Ooty.jpg"
+ },
+ {
+  "id": "jr",
+  "file": "jr.jpg",
+  "tema": "terra seca rachada",
+  "titulo": "File:2018-04-17 18 01 44 Cracked soil submerged under water after a heavy rainfall at the end of a dry spell along a walking path in the Franklin Farm section of Oak Hill, Fairfax County, Virginia.jpg",
+  "autor": "Famartin",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:2018-04-17_18_01_44_Cracked_soil_submerged_under_water_after_a_heavy_rainfall_at_the_end_of_a_dry_spell_along_a_walking_path_in_the_Franklin_Farm_section_of_Oak_Hill,_Fairfax_County,_Virginia.jpg"
+ },
+ {
+  "id": "lm",
+  "file": "lm.jpg",
+  "tema": "ruínas ao crepúsculo",
+  "titulo": "File:Corfe Caste sunset and moon 2.jpg",
+  "autor": "Daniel Schmidt",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Corfe_Caste_sunset_and_moon_2.jpg"
+ },
+ {
+  "id": "ez",
+  "file": "ez.jpg",
+  "tema": "vale seco / deserto",
+  "titulo": "File:-mypubliclandsroadtrip 2016- Our Camping Picks, Alvord Desert (27843160561).jpg",
+  "autor": "mypubliclands",
+  "licenca": "Public domain",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:-mypubliclandsroadtrip_2016-_Our_Camping_Picks,_Alvord_Desert_(27843160561).jpg"
+ },
+ {
+  "id": "dn",
+  "file": "dn.jpg",
+  "tema": "savana dos leões",
+  "titulo": "File:African-landscape-lion (Unsplash).jpg",
+  "autor": "Bram Vranckx beevee",
+  "licenca": "CC0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:African-landscape-lion_(Unsplash).jpg"
+ },
+ {
+  "id": "os",
+  "file": "os.jpg",
+  "tema": "campo arado",
+  "titulo": "File:0256jfLandscapes Maronquillo Plowing Vegetables Fields San Rafael Bulacanfvf 01.JPG",
+  "autor": "Judgefloro",
+  "licenca": "Public domain",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:0256jfLandscapes_Maronquillo_Plowing_Vegetables_Fields_San_Rafael_Bulacanfvf_01.JPG"
+ },
+ {
+  "id": "jl",
+  "file": "jl.jpg",
+  "tema": "campo ao céu aberto",
+  "titulo": "File:A Desert Landscape (53437341027).jpg",
+  "autor": "Joshua Tree National Park",
+  "licenca": "Public domain",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:A_Desert_Landscape_(53437341027).jpg"
+ },
+ {
+  "id": "am",
+  "file": "am.jpg",
+  "tema": "pastagem seca com cabras",
+  "titulo": "File:Chrome Hill and Pastoral Landscapes – Peak District National Park.jpg",
+  "autor": "TXGemGem",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Chrome_Hill_and_Pastoral_Landscapes_%E2%80%93_Peak_District_National_Park.jpg"
+ },
+ {
+  "id": "ob",
+  "file": "ob.jpg",
+  "tema": "rochas de Petra",
+  "titulo": "File:08 Little Petra Canyon Trail - The Narrow Canyon at Little Petra - panoramio.jpg",
+  "autor": "hikinginjordan",
+  "licenca": "CC BY-SA 3.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:08_Little_Petra_Canyon_Trail_-_The_Narrow_Canyon_at_Little_Petra_-_panoramio.jpg"
+ },
+ {
+  "id": "jn",
+  "file": "jn.jpg",
+  "tema": "mar agitado",
+  "titulo": "File:Oualidia vague sur la plage-photo Bertrand SOUBEYRAND.jpg",
+  "autor": "Bertrand SOUBEYRAND",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Oualidia_vague_sur_la_plage-photo_Bertrand_SOUBEYRAND.jpg"
+ },
+ {
+  "id": "mq",
+  "file": "mq.jpg",
+  "tema": "colinas ao amanhecer",
+  "titulo": "File:Golden Mist of Maligcong Landscape.jpg",
+  "autor": "Emman Asuncion Foronda",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Golden_Mist_of_Maligcong_Landscape.jpg"
+ },
+ {
+  "id": "na",
+  "file": "na.jpg",
+  "tema": "rio Tigre",
+  "titulo": "File:A picture of the bank of the Tigris River from the city of Mosul.jpg",
+  "autor": "Hamza Al Mosuly",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:A_picture_of_the_bank_of_the_Tigris_River_from_the_city_of_Mosul.jpg"
+ },
+ {
+  "id": "hc",
+  "file": "hc.jpg",
+  "tema": "torre de vigia",
+  "titulo": "File:Sabha Castle.jpg",
+  "autor": "Belkheir khalid Ph",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Sabha_Castle.jpg"
+ },
+ {
+  "id": "sf",
+  "file": "sf.jpg",
+  "tema": "colina semi-árida da Judeia",
+  "titulo": "File:PikiWiki Israel 17643 A beautiful rainbow near Arad.jpg",
+  "autor": "רותי רוטשטיין",
+  "licenca": "CC BY 2.5",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_17643_A_beautiful_rainbow_near_Arad.jpg"
+ },
+ {
+  "id": "ag",
+  "file": "ag.jpg",
+  "tema": "pedras lavradas",
+  "titulo": "File:Baalbek stone.jpg",
+  "autor": "SenemmTSR",
+  "licenca": "Public domain",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Baalbek_stone.jpg"
+ },
+ {
+  "id": "zc",
+  "file": "zc.jpg",
+  "tema": "oliveiras",
+  "titulo": "File:2017-10-15 Olive tree grove, Patã de Baixo, Boliqueime.JPG",
+  "autor": "Kolforn",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:2017-10-15_Olive_tree_grove,_Pat%C3%A3_de_Baixo,_Boliqueime.JPG"
+ },
+ {
+  "id": "ml",
+  "file": "ml.jpg",
+  "tema": "alvorecer",
+  "titulo": "File:Cottonwoods at Sunrise, Zion National Park, UT 2014 (31690360876).jpg",
+  "autor": "inkknife_2000",
+  "licenca": "CC BY-SA 2.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Cottonwoods_at_Sunrise,_Zion_National_Park,_UT_2014_(31690360876).jpg"
+ },
+ {
+  "id": "mt",
+  "file": "mt.jpg",
+  "tema": "estrela no céu noturno",
+  "titulo": "File:049 Eiger under night sky with stars Photo by Giles Laurent.jpg",
+  "autor": "Giles Laurent",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:049_Eiger_under_night_sky_with_stars_Photo_by_Giles_Laurent.jpg"
+ },
+ {
+  "id": "mc",
+  "file": "mc.jpg",
+  "tema": "mar da Galileia",
+  "titulo": "File:Almog IL13 DSCN0720.jpg",
+  "autor": "Almog",
+  "licenca": "Public domain",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Almog_IL13_DSCN0720.jpg"
+ },
+ {
+  "id": "lc",
+  "file": "lc.jpg",
+  "tema": "colinas da Galileia",
+  "titulo": "File:118521 a view from kfar-veradim to the top of the galilee PikiWiki Israel.jpg",
+  "autor": "שלמה רודד",
+  "licenca": "CC BY 2.5",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:118521_a_view_from_kfar-veradim_to_the_top_of_the_galilee_PikiWiki_Israel.jpg"
+ },
+ {
+  "id": "joao",
+  "file": "joao.jpg",
+  "tema": "luz por nuvens sobre o lago",
+  "titulo": "File:After The Storm (125078793).jpeg",
+  "autor": "Laurent Virzi",
+  "licenca": "CC BY-SA 3.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:After_The_Storm_(125078793).jpeg"
+ },
+ {
+  "id": "at",
+  "file": "at.jpg",
+  "tema": "estrada antiga romana",
+  "titulo": "File:A muddy Roman road - geograph.org.uk - 3722586.jpg",
+  "autor": "Marathon",
+  "licenca": "CC BY-SA 2.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:A_muddy_Roman_road_-_geograph.org.uk_-_3722586.jpg"
+ },
+ {
+  "id": "rm",
+  "file": "rm.jpg",
+  "tema": "Fórum Romano",
+  "titulo": "File:Colonne onorarie (3).jpg",
+  "autor": "Krzysztof Golik",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Colonne_onorarie_(3).jpg"
+ },
+ {
+  "id": "1co",
+  "file": "1co.jpg",
+  "tema": "ruínas de Corinto",
+  "titulo": "File:2007 Greece Acrocorinth & Apollo Temple.jpg",
+  "autor": "Nicholas Hartmann",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:2007_Greece_Acrocorinth_%26_Apollo_Temple.jpg"
+ },
+ {
+  "id": "2co",
+  "file": "2co.jpg",
+  "tema": "Acrocorinto / Corinto antiga",
+  "titulo": "File:2007 Greece Acrocorinth fortifications 02.jpg",
+  "autor": "Nicholas Hartmann",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:2007_Greece_Acrocorinth_fortifications_02.jpg"
+ },
+ {
+  "id": "gl",
+  "file": "gl.jpg",
+  "tema": "montanhas da Anatólia",
+  "titulo": "File:Autumn in Göreme Valley.jpg",
+  "autor": "Emrahuygun",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Autumn_in_G%C3%B6reme_Valley.jpg"
+ },
+ {
+  "id": "ef",
+  "file": "ef.jpg",
+  "tema": "ruínas de Éfeso",
+  "titulo": "File:Ancient Ephesus ruins-Street.jpg",
+  "autor": "Yair Haklai",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Ancient_Ephesus_ruins-Street.jpg"
+ },
+ {
+  "id": "fp",
+  "file": "fp.jpg",
+  "tema": "ruínas de Filipos",
+  "titulo": "File:Ruins at the Archaeological Site of Philippi, Greece.jpg",
+  "autor": "Salwa Farwaneh Dameh",
+  "licenca": "CC0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Ruins_at_the_Archaeological_Site_of_Philippi,_Greece.jpg"
+ },
+ {
+  "id": "cl",
+  "file": "cl.jpg",
+  "tema": "vale e terraços de Pamukkale",
+  "titulo": "File:An picture of Pamukkale taken from Pamukkale travertines.jpg",
+  "autor": "Aliozkurt",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:An_picture_of_Pamukkale_taken_from_Pamukkale_travertines.jpg"
+ },
+ {
+  "id": "1ts",
+  "file": "1ts.jpg",
+  "tema": "nuvens ao amanhecer",
+  "titulo": "File:Bieszczady - sunrise from Chatka Puchatka (2).jpg",
+  "autor": "Pudelek",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Bieszczady_-_sunrise_from_Chatka_Puchatka_(2).jpg"
+ },
+ {
+  "id": "2ts",
+  "file": "2ts.jpg",
+  "tema": "céu dramático",
+  "titulo": "File:A barren, cracked landscape stretches to the horizon under a heavy, cloud-filled sky. Sunbeams pierce through gaps in the clouds, casting soft, divine light onto the dry earth below.jpg",
+  "autor": "AldenVoss",
+  "licenca": "CC0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:A_barren,_cracked_landscape_stretches_to_the_horizon_under_a_heavy,_cloud-filled_sky._Sunbeams_pierce_through_gaps_in_the_clouds,_casting_soft,_divine_light_onto_the_dry_earth_below.jpg"
+ },
+ {
+  "id": "1tm",
+  "file": "1tm.jpg",
+  "tema": "caminho no campo",
+  "titulo": "File:Birch trees on the high moor Fochterloerveen, near Bovensmilde.jpg",
+  "autor": "Fons Heijnsbroek",
+  "licenca": "CC0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Birch_trees_on_the_high_moor_Fochterloerveen,_near_Bovensmilde.jpg"
+ },
+ {
+  "id": "2tm",
+  "file": "2tm.jpg",
+  "tema": "porto antigo",
+  "titulo": "File:Acre's Khan al-Umdan 1136 (509675582).jpg",
+  "autor": "James Emery",
+  "licenca": "CC BY 2.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Acre%27s_Khan_al-Umdan_1136_(509675582).jpg"
+ },
+ {
+  "id": "tt",
+  "file": "tt.jpg",
+  "tema": "ilha de Creta",
+  "titulo": "File:Coast Achlada 01.jpg",
+  "autor": "Rémih",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Coast_Achlada_01.jpg"
+ },
+ {
+  "id": "fm",
+  "file": "fm.jpg",
+  "tema": "estrada em colinas",
+  "titulo": "File:Burnt Ranch Road along the John Day River, Oregon - Flickr - Bonnie Moreland (free images).jpg",
+  "autor": "Bonnie Moreland",
+  "licenca": "Public domain",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Burnt_Ranch_Road_along_the_John_Day_River,_Oregon_-_Flickr_-_Bonnie_Moreland_(free_images).jpg"
+ },
+ {
+  "id": "hb",
+  "file": "hb.jpg",
+  "tema": "céu noturno natural",
+  "titulo": "File:A magical night in the Atacama Desert (potw2348a).jpg",
+  "autor": "P. Horálek/ESO",
+  "licenca": "CC BY 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:A_magical_night_in_the_Atacama_Desert_(potw2348a).jpg"
+ },
+ {
+  "id": "tg",
+  "file": "tg.jpg",
+  "tema": "espigas de trigo",
+  "titulo": "File:Wheat ear close-up in a field Bangladesh 01.jpg",
+  "autor": "A S M Jobaer",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Wheat_ear_close-up_in_a_field_Bangladesh_01.jpg"
+ },
+ {
+  "id": "1pe",
+  "file": "1pe.jpg",
+  "tema": "rio de montanha",
+  "titulo": "File:Bear River Moonscape (23119384725).jpg",
+  "autor": "USFWS Mountain-Prairie",
+  "licenca": "Public domain",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Bear_River_Moonscape_(23119384725).jpg"
+ },
+ {
+  "id": "2pe",
+  "file": "2pe.jpg",
+  "tema": "estrela da manhã ao amanhecer",
+  "titulo": "File:Buffalo, NY - 20150509 - \"Morning Star\".jpg",
+  "autor": "Andre Carrotflower",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Buffalo,_NY_-_20150509_-_%22Morning_Star%22.jpg"
+ },
+ {
+  "id": "1jo",
+  "file": "1jo.jpg",
+  "tema": "luz do sol na floresta",
+  "titulo": "File:Autumn Carpathian forest illuminated by sunlight (54875256265).jpg",
+  "autor": "AS Photography",
+  "licenca": "CC BY 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Autumn_Carpathian_forest_illuminated_by_sunlight_(54875256265).jpg"
+ },
+ {
+  "id": "2jo",
+  "file": "2jo.jpg",
+  "tema": "trilha ao entardecer",
+  "titulo": "File:4th of July Storm at Sunset on Trail Ridge Road - Flickr - AlphaTangoBravo - Adam Baker.jpg",
+  "autor": "Adam Baker",
+  "licenca": "CC BY 2.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:4th_of_July_Storm_at_Sunset_on_Trail_Ridge_Road_-_Flickr_-_AlphaTangoBravo_-_Adam_Baker.jpg"
+ },
+ {
+  "id": "3jo",
+  "file": "3jo.jpg",
+  "tema": "caminho entre árvores",
+  "titulo": "File:Tree-lined road, Upper Linhay - geograph.org.uk - 1737581.jpg",
+  "autor": "Roger Cornfoot",
+  "licenca": "CC BY-SA 2.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Tree-lined_road,_Upper_Linhay_-_geograph.org.uk_-_1737581.jpg"
+ },
+ {
+  "id": "jd",
+  "file": "jd.jpg",
+  "tema": "penhasco e nuvens",
+  "titulo": "File:(Coastline cliff view on Kauai Island, United States) - DPLA - 892e2b6d3723dc72ee8bd645e1a22447.jpg",
+  "autor": "Sherwin John Carlquist",
+  "licenca": "CC BY 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:(Coastline_cliff_view_on_Kauai_Island,_United_States)_-_DPLA_-_892e2b6d3723dc72ee8bd645e1a22447.jpg"
+ },
+ {
+  "id": "ap",
+  "file": "ap.jpg",
+  "tema": "céu dramático sobre o mar",
+  "titulo": "File:Chora of Patmos.jpg",
+  "autor": "airphoto.gr",
+  "licenca": "CC BY-SA 4.0",
+  "url_pagina": "https://commons.wikimedia.org/wiki/File:Chora_of_Patmos.jpg"
+ }
+]

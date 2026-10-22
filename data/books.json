@@ -1,0 +1,332 @@
+[
+ {
+  "id": "gn",
+  "n": "Gênesis",
+  "t": "AT"
+ },
+ {
+  "id": "ex",
+  "n": "Êxodo",
+  "t": "AT"
+ },
+ {
+  "id": "lv",
+  "n": "Levítico",
+  "t": "AT"
+ },
+ {
+  "id": "nm",
+  "n": "Números",
+  "t": "AT"
+ },
+ {
+  "id": "dt",
+  "n": "Deuteronômio",
+  "t": "AT"
+ },
+ {
+  "id": "js",
+  "n": "Josué",
+  "t": "AT"
+ },
+ {
+  "id": "jz",
+  "n": "Juízes",
+  "t": "AT"
+ },
+ {
+  "id": "rt",
+  "n": "Rute",
+  "t": "AT"
+ },
+ {
+  "id": "1sm",
+  "n": "1 Samuel",
+  "t": "AT"
+ },
+ {
+  "id": "2sm",
+  "n": "2 Samuel",
+  "t": "AT"
+ },
+ {
+  "id": "1rs",
+  "n": "1 Reis",
+  "t": "AT"
+ },
+ {
+  "id": "2rs",
+  "n": "2 Reis",
+  "t": "AT"
+ },
+ {
+  "id": "1cr",
+  "n": "1 Crônicas",
+  "t": "AT"
+ },
+ {
+  "id": "2cr",
+  "n": "2 Crônicas",
+  "t": "AT"
+ },
+ {
+  "id": "esd",
+  "n": "Esdras",
+  "t": "AT"
+ },
+ {
+  "id": "ne",
+  "n": "Neemias",
+  "t": "AT"
+ },
+ {
+  "id": "et",
+  "n": "Ester",
+  "t": "AT"
+ },
+ {
+  "id": "job",
+  "n": "Jó",
+  "t": "AT"
+ },
+ {
+  "id": "sl",
+  "n": "Salmos",
+  "t": "AT"
+ },
+ {
+  "id": "pv",
+  "n": "Provérbios",
+  "t": "AT"
+ },
+ {
+  "id": "ec",
+  "n": "Eclesiastes",
+  "t": "AT"
+ },
+ {
+  "id": "ct",
+  "n": "Cantares de Salomão",
+  "t": "AT"
+ },
+ {
+  "id": "is",
+  "n": "Isaías",
+  "t": "AT"
+ },
+ {
+  "id": "jr",
+  "n": "Jeremias",
+  "t": "AT"
+ },
+ {
+  "id": "lm",
+  "n": "Lamentações",
+  "t": "AT"
+ },
+ {
+  "id": "ez",
+  "n": "Ezequiel",
+  "t": "AT"
+ },
+ {
+  "id": "dn",
+  "n": "Daniel",
+  "t": "AT"
+ },
+ {
+  "id": "os",
+  "n": "Oseias",
+  "t": "AT"
+ },
+ {
+  "id": "jl",
+  "n": "Joel",
+  "t": "AT"
+ },
+ {
+  "id": "am",
+  "n": "Amós",
+  "t": "AT"
+ },
+ {
+  "id": "ob",
+  "n": "Obadias",
+  "t": "AT"
+ },
+ {
+  "id": "jn",
+  "n": "Jonas",
+  "t": "AT"
+ },
+ {
+  "id": "mq",
+  "n": "Miqueias",
+  "t": "AT"
+ },
+ {
+  "id": "na",
+  "n": "Naum",
+  "t": "AT"
+ },
+ {
+  "id": "hc",
+  "n": "Habacuque",
+  "t": "AT"
+ },
+ {
+  "id": "sf",
+  "n": "Sofonias",
+  "t": "AT"
+ },
+ {
+  "id": "ag",
+  "n": "Ageu",
+  "t": "AT"
+ },
+ {
+  "id": "zc",
+  "n": "Zacarias",
+  "t": "AT"
+ },
+ {
+  "id": "ml",
+  "n": "Malaquias",
+  "t": "AT"
+ },
+ {
+  "id": "mt",
+  "n": "Mateus",
+  "t": "NT"
+ },
+ {
+  "id": "mc",
+  "n": "Marcos",
+  "t": "NT"
+ },
+ {
+  "id": "lc",
+  "n": "Lucas",
+  "t": "NT"
+ },
+ {
+  "id": "joao",
+  "n": "João",
+  "t": "NT"
+ },
+ {
+  "id": "at",
+  "n": "Atos",
+  "t": "NT"
+ },
+ {
+  "id": "rm",
+  "n": "Romanos",
+  "t": "NT"
+ },
+ {
+  "id": "1co",
+  "n": "1 Coríntios",
+  "t": "NT"
+ },
+ {
+  "id": "2co",
+  "n": "2 Coríntios",
+  "t": "NT"
+ },
+ {
+  "id": "gl",
+  "n": "Gálatas",
+  "t": "NT"
+ },
+ {
+  "id": "ef",
+  "n": "Efésios",
+  "t": "NT"
+ },
+ {
+  "id": "fp",
+  "n": "Filipenses",
+  "t": "NT"
+ },
+ {
+  "id": "cl",
+  "n": "Colossenses",
+  "t": "NT"
+ },
+ {
+  "id": "1ts",
+  "n": "1 Tessalonicenses",
+  "t": "NT"
+ },
+ {
+  "id": "2ts",
+  "n": "2 Tessalonicenses",
+  "t": "NT"
+ },
+ {
+  "id": "1tm",
+  "n": "1 Timóteo",
+  "t": "NT"
+ },
+ {
+  "id": "2tm",
+  "n": "2 Timóteo",
+  "t": "NT"
+ },
+ {
+  "id": "tt",
+  "n": "Tito",
+  "t": "NT"
+ },
+ {
+  "id": "fm",
+  "n": "Filemom",
+  "t": "NT"
+ },
+ {
+  "id": "hb",
+  "n": "Hebreus",
+  "t": "NT"
+ },
+ {
+  "id": "tg",
+  "n": "Tiago",
+  "t": "NT"
+ },
+ {
+  "id": "1pe",
+  "n": "1 Pedro",
+  "t": "NT"
+ },
+ {
+  "id": "2pe",
+  "n": "2 Pedro",
+  "t": "NT"
+ },
+ {
+  "id": "1jo",
+  "n": "1 João",
+  "t": "NT"
+ },
+ {
+  "id": "2jo",
+  "n": "2 João",
+  "t": "NT"
+ },
+ {
+  "id": "3jo",
+  "n": "3 João",
+  "t": "NT"
+ },
+ {
+  "id": "jd",
+  "n": "Judas",
+  "t": "NT"
+ },
+ {
+  "id": "ap",
+  "n": "Apocalipse",
+  "t": "NT"
+ }
+]
