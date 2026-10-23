@@ -66,9 +66,9 @@ progress { width:100%; height:14px; accent-color:var(--accent); }
 .res.today { border-color:var(--accent); border-width:2px; }
 .mrow > .btn { min-width:48px; }
 /* foto de fundo (marca d'água) */
-.text::before { content:""; position:fixed; inset:0; z-index:-1; pointer-events:none; background:var(--wm) center/cover no-repeat; opacity:.14; }
-html[data-theme="escuro"] .text::before { opacity:.1; }
-@media (prefers-color-scheme: dark) { html[data-theme="auto"] .text::before { opacity:.1; } }
+.text::before { content:""; position:fixed; inset:0; z-index:-1; pointer-events:none; background:var(--wm) center/cover no-repeat; opacity:.32; }
+html[data-theme="escuro"] .text::before { opacity:.24; }
+@media (prefers-color-scheme: dark) { html[data-theme="auto"] .text::before { opacity:.24; } }
 html[data-wm="off"] .text::before { display:none; }
 /* leitura */
 .text { font-size:var(--fs); line-height:1.65; touch-action:pan-y; }
