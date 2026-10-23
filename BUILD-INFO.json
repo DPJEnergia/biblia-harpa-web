@@ -1,7 +1,7 @@
 {
  "build": "dist-public",
- "built_at": "2026-10-23T08:23:58-0300",
- "stamp": "c884f05bc0ab",
+ "built_at": "2026-10-23T13:22:55-0300",
+ "stamp": "041a4d8a7fee",
  "versions": [
   {
    "id": "alm1911",
@@ -9,7 +9,7 @@
    "file": "bible-alm1911.json"
   }
  ],
- "sw_sha256": "f40b1608c0e31f387f9a6e5600503da74b9889c697fdcc5a5656641291c0ff4d",
+ "sw_sha256": "ea350711090110074838f056c5d6250a46b7d78cbed93398f122763e84b62877",
  "files": [
   {
    "path": "css/app.css",
@@ -325,7 +325,7 @@
   },
   {
    "path": "js/app.js",
-   "bytes": 31530
+   "bytes": 33523
   },
   {
    "path": "js/audio-core.js",

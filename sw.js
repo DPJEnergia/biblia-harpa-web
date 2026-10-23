@@ -1,5 +1,5 @@
 // Service worker: shell pré-cacheado; dados em cache em tempo de execução (cache-first).
-const VERSION = 'c884f05bc0ab';
+const VERSION = '041a4d8a7fee';
 const SHELL_CACHE = 'bh-shell-' + VERSION;
 const DATA_CACHE = 'bh-data-' + VERSION;
 const SHELL = ['./', 'index.html', 'manifest.json', 'icon-192.png', 'icon-512.png', 'css/app.css',

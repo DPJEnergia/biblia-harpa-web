@@ -444,6 +444,10 @@ async function viewSettings() {
       <label for="dv">Versão da Bíblia</label>
       <select id="dv" class="sel">${versions.map(v => `<option value="${esc(v.id)}"${v.id === s.version ? ' selected' : ''}>${esc(v.name)} (${esc(v.id.toUpperCase())})</option>`).join('')}</select>
       <p class="muted" id="lic">${cur ? esc(licTxt(cur)) + src : ''}</p></section>
+    <section class="card"><h2>Usar sem internet</h2>
+      <p class="muted">Com internet ligada, toque para baixar todas as versões, a Harpa e as fotos para este aparelho. Demora um pouco. Depois funciona em modo avião.</p>
+      <button class="btn" id="offl">Baixar tudo para usar offline</button>
+      <p class="muted" id="offs" role="status"></p></section>
     <section class="card"><h2>Backup</h2>
       <div class="row wrap"><button class="btn" id="ex">Exportar backup</button>
       <button class="btn" id="im">Importar backup</button></div>
@@ -463,6 +467,32 @@ async function viewSettings() {
       e.target.dataset.ok = '1';
     } catch (err) { $('#credl').textContent = 'Créditos indisponíveis agora.'; }
   });
+  $('#offl').onclick = async () => {
+    const btn = $('#offl'), out = $('#offs');
+    if (!('caches' in window) || !navigator.serviceWorker || !navigator.serviceWorker.controller) {
+      out.textContent = 'O modo offline ainda não está ativo neste aparelho. Feche o app, abra de novo com internet e tente outra vez.'; return;
+    }
+    btn.disabled = true; out.textContent = 'Preparando…';
+    try {
+      const [books, versions] = await Promise.all([data.loadBooks(), data.loadVersions()]);
+      const urls = ['books.json', 'versions.json', 'meta.json', 'harpa.json', 'votd.json', 'plano.json'].map(f => './data/' + f)
+        .concat(versions.map(v => './data/' + v.file), books.map(b => './img/livros/' + b.id + '.jpg'), ['./img/livros/creditos.json']);
+      let n = 0, ok = 0;
+      const queue = urls.slice();
+      const worker = async () => {
+        while (queue.length) {
+          const u = queue.shift();
+          try { const r = await fetch(u); if (r.ok) ok++; await r.arrayBuffer(); } catch (e) { /* conta como falha */ }
+          out.textContent = `Baixando… ${++n} de ${urls.length}`;
+        }
+      };
+      await Promise.all([worker(), worker(), worker()]);
+      let have = 0;
+      for (const u of urls) { if (await caches.match(u)) have++; }
+      out.textContent = have === urls.length ? `Pronto: ${have} arquivos salvos. Já pode usar sem internet.` : `Salvos ${have} de ${urls.length}. Ligue a internet e toque de novo para completar.`;
+    } catch (e) { out.textContent = 'Falha ao baixar. Verifique a internet e tente de novo.'; }
+    btn.disabled = false;
+  };
   $('#wm').onchange = e => { store.setSetting('watermark', e.target.checked); applyTheme(); };
   $('#fs').oninput = e => { $('#fsv').textContent = e.target.value; store.setSetting('fontSize', +e.target.value); applyTheme(); };
   $('#dv').onchange = async e => {
