@@ -1,7 +1,7 @@
 {
  "build": "dist-public",
- "built_at": "2026-10-23T08:09:23-0300",
- "stamp": "525edd33ed7a",
+ "built_at": "2026-10-23T08:23:58-0300",
+ "stamp": "c884f05bc0ab",
  "versions": [
   {
    "id": "alm1911",
@@ -9,7 +9,7 @@
    "file": "bible-alm1911.json"
   }
  ],
- "sw_sha256": "de340a4fdb89084860b3a1bcd9b16c1ba65159c10d7d577447ef25c32ce25883",
+ "sw_sha256": "f40b1608c0e31f387f9a6e5600503da74b9889c697fdcc5a5656641291c0ff4d",
  "files": [
   {
    "path": "css/app.css",
@@ -32,8 +32,8 @@
    "bytes": 255
   },
   {
-   "path": "data/plano90.json",
-   "bytes": 2068
+   "path": "data/plano.json",
+   "bytes": 42339
   },
   {
    "path": "data/versions.json",
@@ -325,7 +325,7 @@
   },
   {
    "path": "js/app.js",
-   "bytes": 30718
+   "bytes": 31530
   },
   {
    "path": "js/audio-core.js",
@@ -337,7 +337,7 @@
   },
   {
    "path": "js/data.js",
-   "bytes": 4839
+   "bytes": 4837
   },
   {
    "path": "js/harpa.js",
@@ -345,7 +345,7 @@
   },
   {
    "path": "js/plano.js",
-   "bytes": 1494
+   "bytes": 1720
   },
   {
    "path": "js/reader.js",
@@ -353,7 +353,7 @@
   },
   {
    "path": "js/store.js",
-   "bytes": 6703
+   "bytes": 6953
   },
   {
    "path": "js/votd.js",
@@ -365,7 +365,7 @@
   },
   {
    "path": "sw.js",
-   "bytes": 4007
+   "bytes": 4003
   }
  ]
 }

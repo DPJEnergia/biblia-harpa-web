@@ -22,7 +22,7 @@ export async function loadMeta() {
   if (!cache.meta) { try { cache.meta = await fetchJSON(BASE + 'meta.json'); } catch (e) { cache.meta = {}; } }
   return cache.meta;
 }
-export async function loadPlano() { return cache.plano || (cache.plano = await fetchJSON(BASE + 'plano90.json')); }
+export async function loadPlano() { return cache.plano || (cache.plano = await fetchJSON(BASE + 'plano.json')); }
 export async function loadHarpa() { return cache.harpa || (cache.harpa = await fetchJSON(BASE + 'harpa.json')); }
 
 // Carrega versão sob demanda e indexa livros por id.

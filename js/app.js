@@ -119,26 +119,32 @@ async function viewHome() {
     (store.persisted ? '' : `<p class="muted warn">Armazenamento indisponível: seus dados não serão salvos neste navegador.</p>`));
 }
 
+const monthsLabel = m => (m === 1 ? '1 mês' : m + ' meses');
 function planCard() {
   const pl = store.state.plan;
-  if (!pl) return `<a class="card link" href="#/plano"><span class="eyebrow">Plano de leitura</span><strong>Bíblia em 90 dias</strong></a>`;
+  if (!pl) return `<a class="card link" href="#/plano"><span class="eyebrow">Plano de leitura</span><strong>Bíblia em 1 a 12 meses</strong></a>`;
   const sm = plano.summary(pl);
-  const txt = sm.finished ? 'Plano concluído' : sm.notStarted ? 'Começa em ' + esc(pl.start) : `Dia ${sm.today} de 90 · ${sm.count} lidos`;
-  return `<a class="card link" href="#/plano"><span class="eyebrow">Plano de 90 dias</span><strong>${txt}</strong></a>`;
+  const txt = sm.finished ? 'Plano concluído' : sm.notStarted ? 'Começa em ' + esc(pl.start) : `Dia ${num(sm.today)} de ${num(sm.total)} · ${num(sm.count)} lidos`;
+  return `<a class="card link" href="#/plano"><span class="eyebrow">Plano de ${esc(monthsLabel(sm.total / 30))}</span><strong>${txt}</strong></a>`;
 }
 
-// ---------- Plano de 90 dias ----------
+// ---------- Plano de leitura (1 a 12 meses) ----------
 async function viewPlan() {
-  setTitle('Plano de 90 dias', { back: true }); setNav('inicio'); BH.view = null;
-  const [books, days] = await Promise.all([data.loadBooks(), data.loadPlano()]);
+  setTitle('Plano de leitura', { back: true }); setNav('inicio'); BH.view = null;
+  const [books, plans] = await Promise.all([data.loadBooks(), data.loadPlano()]);
   const pl = store.state.plan;
-  if (!pl) {
-    main.innerHTML = `<section class="card"><h2>Bíblia inteira em 90 dias</h2>
-      <p>São cerca de 13 capítulos por dia (uns 20 a 30 minutos), do Gênesis ao Apocalipse, em ordem. Você marca cada dia lido e o app mostra o que falta.</p>
+  if (!pl || !plans[String(plano.totalDays(pl) / 30)]) {
+    const opts = plano.MONTHS.map(m => `<option value="${num(m)}"${m === 3 ? ' selected' : ''}>${monthsLabel(m)} (${num(m * 30)} dias, cerca de ${(1189 / (m * 30)).toFixed(1).replace('.', ',')} capítulos por dia)</option>`).join('');
+    main.innerHTML = `<section class="card"><h2>Bíblia inteira no seu ritmo</h2>
+      <p>Escolha em quantos meses quer ler a Bíblia, do Gênesis ao Apocalipse, em ordem. Cada mês tem 30 dias. Você marca cada dia lido e o app mostra o que falta.</p>
+      <label for="pmes">Duração do plano</label>
+      <select id="pmes" class="sel">${opts}</select>
       <button class="btn" id="pstart">Começar hoje</button></section>`;
-    $('#pstart').onclick = () => { store.startPlan(plano.dateStr()); render(true); };
+    $('#pstart').onclick = () => { store.startPlan(plano.dateStr(), (+$('#pmes').value || 3) * 30); render(true); };
     return;
   }
+  const total = plano.totalDays(pl);
+  const days = plans[String(total / 30)];
   const sm = plano.summary(pl);
   const done = new Set(pl.done);
   const row = d => {
@@ -146,24 +152,24 @@ async function viewPlan() {
     const lab = plano.dayLabel(books, runs);
     const on = done.has(d);
     const href = readHref({ book: runs[0][0], chap: runs[0][1] });
-    return `<div class="mrow"><a class="res${d === sm.today ? ' today' : ''}" href="${esc(href)}"><strong>Dia ${d}</strong><em>${esc(lab)}</em></a>` +
+    return `<div class="mrow"><a class="res${d === sm.today ? ' today' : ''}" href="${esc(href)}"><strong>Dia ${num(d)}</strong><em>${esc(lab)}</em></a>` +
       `<button class="btn small" data-d="${num(d)}" aria-pressed="${on ? 'true' : 'false'}" aria-label="Dia ${num(d)} lido">${on ? '✓' : '○'}</button></div>`;
   };
   let head;
   if (sm.finished) head = `<p><strong>Plano concluído. Parabéns!</strong></p>`;
   else if (sm.notStarted) head = `<p>O plano começa em ${esc(pl.start)}.</p>`;
-  else head = `<p><strong>Hoje: dia ${sm.today} de 90.</strong> ${sm.late ? `Atrasados: ${sm.late} dia(s). Próximo pendente: dia ${sm.next}.` : 'Você está em dia.'}</p>`;
-  const nextDay = sm.finished ? '' : `<h2>${sm.notStarted ? 'Primeira leitura' : sm.next === sm.today ? 'Leitura de hoje' : 'Próxima leitura (dia ' + sm.next + ')'}</h2>` + row(sm.next);
-  main.innerHTML = `<section class="card">${head}
-      <progress max="90" value="${num(sm.count)}" aria-label="Progresso do plano"></progress>
-      <p class="muted">${sm.count} de 90 dias lidos · começou em ${esc(pl.start)}</p></section>
+  else head = `<p><strong>Hoje: dia ${num(sm.today)} de ${num(total)}.</strong> ${sm.late ? `Atrasados: ${num(sm.late)} dia(s). Próximo pendente: dia ${num(sm.next)}.` : 'Você está em dia.'}</p>`;
+  const nextDay = sm.finished ? '' : `<h2>${sm.notStarted ? 'Primeira leitura' : sm.next === sm.today ? 'Leitura de hoje' : 'Próxima leitura (dia ' + num(sm.next) + ')'}</h2>` + row(sm.next);
+  main.innerHTML = `<section class="card"><h2>Plano de ${esc(monthsLabel(total / 30))}</h2>${head}
+      <progress max="${num(total)}" value="${num(sm.count)}" aria-label="Progresso do plano"></progress>
+      <p class="muted">${num(sm.count)} de ${num(total)} dias lidos · começou em ${esc(pl.start)}</p></section>
     ${nextDay}
     <h2>Todos os dias</h2>
     ${days.map((_, i) => row(i + 1)).join('')}
-    <section class="card"><button class="btn danger" id="preset">Reiniciar plano</button></section>`;
+    <section class="card"><button class="btn danger" id="preset">Trocar ou reiniciar plano</button></section>`;
   main.querySelectorAll('button[data-d]').forEach(b => { b.onclick = () => { store.togglePlanDay(+b.dataset.d); render(true); }; });
   $('#preset').onclick = () => {
-    if (confirm('Reiniciar o plano? As marcações de dias lidos serão apagadas.')) { store.resetPlan(); render(true); }
+    if (confirm('Trocar ou reiniciar o plano? As marcações de dias lidos serão apagadas e você escolhe a duração de novo.')) { store.resetPlan(); render(true); }
   };
 }
 

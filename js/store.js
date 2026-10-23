@@ -11,7 +11,7 @@ export function defaultState() {
     lastHymn: null,       // número
     marks: {},            // "bookId:chap:verse" -> {color, note, fav, t}
     favHymns: [],         // números
-    plan: null            // {start:'AAAA-MM-DD', done:[dias 1..90]}
+    plan: null            // {start:'AAAA-MM-DD', days:30..360 (múltiplo de 30), done:[dias 1..days]}
   };
 }
 
@@ -55,7 +55,9 @@ export function validateState(o) {
   if (o.plan !== undefined && o.plan !== null) {
     if (!isObj(o.plan) || typeof o.plan.start !== 'string' || !validDate(o.plan.start)) throw new Error('Backup inválido: plano');
     const done = Array.isArray(o.plan.done) ? o.plan.done : [];
-    d.plan = { start: o.plan.start, done: [...new Set(done.filter(n => Number.isInteger(n) && n >= 1 && n <= 90))].sort((a, b) => a - b) };
+    const days = o.plan.days === undefined ? 90 : o.plan.days;
+    if (!Number.isInteger(days) || days < 30 || days > 360 || days % 30) throw new Error('Backup inválido: plano');
+    d.plan = { start: o.plan.start, days, done: [...new Set(done.filter(n => Number.isInteger(n) && n >= 1 && n <= days))].sort((a, b) => a - b) };
   }
   return d;
 }
@@ -111,10 +113,10 @@ export function createStore(getStorage = () => globalThis.localStorage) {
     toggleHymnFav(n) {
       update(s => { const i = s.favHymns.indexOf(n); if (i >= 0) s.favHymns.splice(i, 1); else s.favHymns.push(n); });
     },
-    startPlan(start) { update(s => { s.plan = { start, done: [] }; }); },
+    startPlan(start, days = 90) { update(s => { s.plan = { start, days, done: [] }; }); },
     togglePlanDay(day) {
       update(s => {
-        if (!s.plan || !Number.isInteger(day) || day < 1 || day > 90) return;
+        if (!s.plan || !Number.isInteger(day) || day < 1 || day > s.plan.days) return;
         const i = s.plan.done.indexOf(day);
         if (i >= 0) s.plan.done.splice(i, 1); else { s.plan.done.push(day); s.plan.done.sort((a, b) => a - b); }
       });
